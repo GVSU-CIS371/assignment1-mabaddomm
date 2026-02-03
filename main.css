@@ -5,3 +5,70 @@ html {
   margin: 0px;
   padding: 0px;
 }
+
+/*My Store and the links*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightskyblue;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+  gap: 20px;
+}
+h1 {
+  color: white;
+}
+
+li{
+  justify-content: space-around;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+/*The shop items*/
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+}
+
+.store-item{
+  border-style: solid;
+  border-color: steelblue;
+  border-width: 2px;
+  border-radius: 6px;
+  /*border: 15px solid steelblue;*/
+}
+
+img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+/*Styler For the Copyight Ro*/
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: skyblue;
+}
+
+footer p{
+  color: white;
+}
